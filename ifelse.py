@@ -95,5 +95,83 @@
 #    a = 0
 #print(a)
 
-print(123)
+#x = int(input())
+#if -1 < x < 17:
+#    print("Принадлежит")
+#else:
+#    print("Не принадлежит")
 
+#x =int(input())
+#if -3 < x < 7:
+#    print("Не принадлежит")
+#else:
+#    print("Принадлежит")
+
+#x= int(input())
+#if (-30 < x <= -2) or (7 < x <= 25):
+#    print("Принадлежит")
+#else:
+#    print("Не принадлежит")
+
+#num = int(input())
+#if (1000 < num < 9999) and (num % 7 == 0 or num % 17 == 0):
+#    print("YES")
+#else:
+#    print("NO")
+
+#a = int(input())
+#b = int(input())
+#c = int(input())
+#if a + b > c and a + c > b and b + c > a:
+#    print("YES")
+#else:
+#    print("NO")
+
+#year = int(input())
+#if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+#    print("YES")
+#else:
+#    print("NO")
+
+#a_stolb = int(input())
+#b_stolb = int(input())
+#a_str = int(input())
+#b_str = int(input())
+#if a_stolb == a_str or b_stolb == b_str:
+#    print("YES")
+#else:
+#    print("NO")
+
+#a_stolb = int(input())
+#b_stolb = int(input())
+#a_str = int(input())
+#b_str = int(input())
+#if (a_stolb + 1 == a_str or a_stolb - 1 == a_str or a_stolb == a_str) and (b_stolb + 1 == b_str or b_stolb - 1 == b_str or b_stolb == b_str):
+#    print("YES")
+#else:
+#    print("NO")
+
+
+#print("Сколько рублей хотите обменять?")
+#rub = int(input())
+#currency = print("Какую валюту хотите получить?")
+#if currency == "Доллар" or "доллар":
+#    dol = (rub / 82.59)
+#    dol = int(dol * 100 + 0.5) / 100
+#    print("Доллар =", dol)
+#if currency == "Евро" or "евро":
+#    eur = (rub / 93.34)
+#    eur = int(eur * 100 + 0.5) / 100
+#    print("Евро =", eur)
+#if currency == "Таиландский бат" or "таиландский бат" or "Бат" or "бат":
+#    thb = (rub / 2.48)
+#    thb = int(thb * 100 + 0.5) / 100
+#    print("Таиландский бат =", thb)
+#if currency == "Дирхам" or "дирхам":
+#    aed = (rub / 22.49)
+#    aed = int(aed * 100 + 0.5) / 100
+#    print("Дирхам =", aed)
+#if currency == "Турецкая лира" or "турецкая лира":
+#    tr = (rub / 2.17)
+#    tr = int(tr * 100 + 0.5) / 100
+#    print("Турецкая лира =", tr)
