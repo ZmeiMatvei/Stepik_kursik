@@ -151,6 +151,132 @@
 #else:
 #    print("NO")
 
+#zoom, flesh = int(input()), int(input())
+#if zoom > flesh:
+#    print("NO")
+#elif flesh > zoom:
+#    print("YES")
+#else:
+#    print("Don't know")
+
+#a = int(input())
+#b = int(input())
+#c = int(input())
+#if a == b and a == c and b == c:
+#    print("Равносторонний")
+#elif a == b or a == c or b == c:
+#    print("Равнобедренный")
+#elif a != b and a != c and b != c:
+#    print("Разносторонний")
+
+#num1 = int(input())
+#num2 = int(input())
+#num3 = int(input())
+#if num1 < num2 < num3 or num1 > num2 > num3:
+#    print(num2)
+#elif num2 < num1 < num3 or num2 > num1 > num3:
+#    print(num1)
+#elif num1 < num3 < num2 or num1 > num3 > num2:
+#    print(num3)
+
+#month = int(input())
+#if month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12:
+#    print("31")
+#elif month == 4 or month == 6 or month == 9 or month == 11:
+#    print("30")
+#elif month == 2:
+#    print("28")
+
+#weight = int(input())
+#if weight < 60:
+#    print("Легкий вес")
+#elif 60 <= weight < 64:
+#    print("Первый полусредний вес")
+#elif 64 <= weight < 69:
+#    print("Полусредний вес")
+
+#num1 = int(input())
+#num2 = int(input())
+#operation = str(input())
+#if operation != "+" and operation != "-" and operation != "*" and operation != "/":
+#    print("Неверная операция")
+#elif operation == '/' and num2 == 0:
+#        print("На ноль делить нельзя!")
+#elif operation == '+':
+#    print(num1 + num2)
+#elif operation == '-':
+#    print(num1 - num2)
+#elif operation == '*':
+#    print(num1 * num2)
+#elif operation == '/':
+#    print(num1 / num2)
+
+#colour1 = str(input())
+#colour2 = str(input())
+#if (colour1 != "красный" and colour1 != "синий" and colour1 != "желтый") or (colour2 != "красный" and colour2 != "синий" and colour2 != "желтый"):
+#   print("ошибка цвета")
+#elif colour1 == colour2:
+#    print(colour1)
+#elif (colour1 == "красный" and colour2 == "синий") or (colour1 == "синий" and colour2 == "красный"):
+#    print("фиолетовый")
+#elif (colour1 == "красный" and colour2 == "желтый") or (colour1 == "желтый" and colour2 == "красный"):
+#    print("оранжевый")
+#elif (colour1 == "синий" and colour2 == "желтый") or (colour1 == "желтый" and colour2 == "синий"):
+#    print("зеленый")
+
+#num = int(input())
+#if 0 > num or num > 36:
+#    print("ошибка ввода")
+#elif num == 0:
+#    print("зеленый")
+#elif 1 <= num <= 10 and num % 2 == 0:
+#    print("черный")
+#elif 1 <= num <= 10 and num % 2 == 1:
+#    print("красный")
+#elif 11 <= num <= 18 and num % 2 == 0:
+#    print("красный")
+#elif 11 <= num <= 18 and num % 2 == 1:
+#    print("черный")
+#elif 19 <= num <= 28 and num % 2 == 0:
+#    print("черный")
+#elif 19 <= num <= 28 and num % 2 == 1:
+#    print("красный")
+#elif 29 <= num <= 36 and num % 2 == 0:
+#    print("красный")
+#elif 29 <= num <= 36 and num % 2 == 1:
+#    print("черный")
+
+#a1 = int(input())
+#b1 = int(input())
+#a2 = int(input())
+#b2 = int(input())
+#if a1 < b1 and b1 < b2 and b1 < a2 and b1 != a2:
+#    print("пустое множество")
+#elif a1 < a2 and b2 < b1:
+#    print(a2, b2)
+#elif a1 < a2 and a2 < b1 < b2:
+#    print(a2, b1)
+#elif a2 < a1 and a1 < b2 < b1:
+#    print(a1, b2)
+#elif a2 < a1 and b1 < b2:
+#    print(a1, b1)
+#elif a1 < b1 and a2 < b2 and b1 == a2:
+#    print(b1)
+#elif a2 < b2 == a1 and a1 < b1:
+#    print (b2)
+#elif a1 == a2 and b1 == b2:
+#    print(a1, b1)
+#elif a1 == a2 and b1 < b2:
+#    print (a1, b1)
+#elif a2 < a1 and b1 == b2:
+#    print (a1, b2)
+#elif a1 < a2 and b1 == b2:
+#    print (a2, b2)
+#elif a1 == a2 and b2 < b1:
+#    print (a1, b2)
+#else:
+#    print("пустое множество")
+
 
 #print("Сколько рублей хотите обменять?")
 #rub = int(input())
