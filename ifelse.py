@@ -277,6 +277,104 @@
 #else:
 #    print("пустое множество")
 
+#year = int(input())
+#if year % 10 == 0 and year % 100 == 0:
+#    print("YES")
+#else:
+#    print("NO")
+
+#a1 = int(input())
+#b1 = int(input())
+#a2 = int(input())
+#b2 = int(input())
+#if (a1 + b1 + a2 + b2) % 2 == 0:
+#    print("YES")
+#else:
+#    print("NO")
+
+#year = int(input())
+#sex = str(input())
+#if sex == "f" and 10 <= year <= 15:
+#    print("YES")
+#else:
+#    print("NO")
+
+#num = int(input())
+#if 1 > num or 10 < num:
+#    print("ошибка")
+#elif num == 1:
+#    print("I")
+#elif num == 2:
+#    print("II")
+#elif num == 3:
+#    print("III")
+#elif num == 4:
+#    print("IV")
+#elif num == 5:
+#    print("V")
+#elif num == 6:
+#    print("VI")
+#elif num == 7:
+#    print("VII")
+#elif num == 8:
+#    print("VIII")
+#elif num == 9:
+#    print("IX")
+#elif num == 10:
+#    print("X")
+
+#num = int(input())
+#if num % 2 != 0:
+#    print("YES")
+#elif num % 2 == 0 and 2 <= num <= 5:
+#    print("NO")
+#elif num % 2 == 0 and 6 <= num <= 20:
+#    print("YES")
+#elif num % 2 == 0 and 20 < num:
+#    print("NO")
+
+#a = int(input())
+#b = int(input())
+#c = int(input())
+#d = int(input())
+#if d == (-c + a + b) or d ==(c - a + b):
+#    print("YES")
+#else:
+#    print("NO")
+
+#x = int(input())
+#y = int(input())
+#X = int(input())
+#Y = int(input())
+#if x - X == 1 and y - Y == 2:
+#    print("YES")
+#elif x - X == 2 and y - Y == 1:
+#    print("YES")
+#elif x - X == -1 and y - Y == -2:
+#    print("YES")
+#elif x - X == -2 and y - Y == -1
+#    print("YES")
+#elif x - X == 1 and y - Y == -2:
+#    print("YES")
+#elif x - X == 2 and y - Y == -1:
+#    print("YES")
+#elif x - X == -1 and y - Y == 2:
+#    print("YES")
+#elif x - X == -2 and y - Y == 1:
+#    print("YES")
+#else:
+#    print("NO")
+
+#x = int(input())
+#y = int(input())
+#X = int(input())
+#Y = int(input())
+#if (x == X and y != Y) or (x != X and y == Y) or (x - X)**2 == (y - Y)**2:
+#    print("YES")
+#else:
+#    print("NO")
+
+
 
 #print("Сколько рублей хотите обменять?")
 #rub = int(input())
