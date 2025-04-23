@@ -399,3 +399,81 @@
 #    tr = (rub / 2.17)
 #    tr = int(tr * 100 + 0.5) / 100
 #    print("Турецкая лира =", tr)
+
+#x = float(input())
+#if x == 0:
+#    print("Обратного числа не существует")
+#elif x < 0 or x > 0:
+#    x = x**-1
+#    print(x)
+
+#tF = float(input())
+#tC = 5/9*(tF - 32)
+#print(tC)
+
+#dog_age = float(input())
+#if dog_age <= 2:
+#    people_age = dog_age*10.5
+#    print(people_age)
+#elif dog_age > 2:
+#    people_age = (dog_age - 2)*4+21
+#    print(people_age)
+
+#n = float(input())
+#N = int(n*10) #убрать хвост
+#x = N%10 #чекнули последнее число
+#print(x)
+
+#выделяем хвост обнуляя целую часть
+#n = float(input())
+#N = n % int(n)
+#print(N)
+
+# функции: min() max() abs()
+
+#a = int(input())
+#b = int(input())
+#c = int(input())
+#d = int(input())
+#e = int(input())
+#nmax = max (a, b, c, d, e)
+#nmin = min (a, b, c, d, e)
+#print("Наименьшее число =", nmin)
+#print("Наибольшее число =", nmax)
+
+#a = int(input())
+#b = int(input())
+#c = int(input())
+#amax = max(a, b, c)
+#amin = min(a, b, c)
+#asred = (a + b + c) - amax - amin
+#print(amax)
+#print(asred)
+#print(amin)
+
+#num = int(input())
+#a = num // 100
+#b = num //10 % 10
+#c = num % 10
+#num_max = max (a, b, c)
+#num_min = min (a, b, c)
+#num_sred = (a + b + c) - num_max - num_min
+#if num_max - num_min == num_sred:
+#    print("Число интересное")
+#else:
+#    print("Число неинтересное")
+
+#a1 = float(input())
+#a2 = float(input())
+#a3 = float(input())
+#a4 = float(input())
+#a5 = float(input())
+#print(abs(a1) + abs(a2) + abs(a3) + abs(a4) + abs(a5))
+
+#p1 = int(input())
+#p2 = int(input())
+#q1 = int(input())
+#q2 = int(input())
+#print(abs(p1 - q1) + abs(p2-q2))
+
+
