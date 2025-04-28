@@ -429,7 +429,6 @@
 #N = n % int(n)
 #print(N)
 
-# функции: min() max() abs()
 
 #a = int(input())
 #b = int(input())
@@ -476,4 +475,135 @@
 #q2 = int(input())
 #print(abs(p1 - q1) + abs(p2-q2))
 
+#str1 = '1'
+#str2 = str1 + '2' + str1
+#str3 = str2 + '3' + str2
+#str4 = str3 + '4' + str3
+#print(str4)
 
+#print('''"Python is a great language!", said Fred. "I don't ever remember having this much fun before."''')
+
+#name = str(input())
+#name2 = str(input())
+#print('Hello', name, name2+"!", 'You have just delved into Python')
+
+#Footbal = str(input())
+#print("Футбольная команда", Footbal, "имеет длину", len(Footbal), "символов")
+
+#city1 = str(input())
+#city2 = str(input())
+#city3 = str(input())
+#city1_l = len(city1)
+#city2_l = len(city2)
+#city3_l = len(city3)
+#min_c = min(city1_l, city2_l, city3_l)
+#max_c = max(city1_l, city2_l, city3_l)
+#if min_c == city1_l and max_c == city2_l:
+#    print(city1)
+#    print(city2)
+#elif min_c == city2_l and max_c == city1_l:
+#    print(city2)
+#    print(city1)
+#elif min_c == city1_l and max_c == city3_l:
+#    print(city1)
+#    print(city3)
+#elif min_c == city3_l and max_c == city1_l:
+#    print(city3)
+#    print(city1)
+#elif min_c == city2_l and max_c == city3_l:
+#    print(city2)
+#    print(city3)
+#elif min_c == city3_l and max_c == city2_l:
+#    print(city3)
+#    print(city2)
+
+#a = str(input())
+#if "@" in a and "." in a:
+#    print("YES")
+#else:
+#    print("NO")
+
+# функции: min(минимум) max(максимум) abs(умножение на 1) len(длина строки)
+# float(input) - число с плавающей точкой
+# input(ввод данных), print(вывод данных),
+# print(sep="!") После каждого слова символ!
+# print(end="!") Разделение новых строк !
+# int(input()) - целое число
+# str(input()) - строка
+# len() - преобразовать строку к числу
+# print(10 % 3) - деление с остатком
+# print(10 // 3) - деление целочисленное
+# условные операторы if, else, elif
+# логические опреторы and, or, not, in
+# import, from math import *, from math import sqrt, ceil подключаем модули
+# список фунций модуля math
+# int() Округляет число в сторону нуля
+# round(x) Округляет число x до ближайшего целого. Если дробная часть числа равна 0.5, то число округляется до ближайшего четного числа (банковское округление)
+# round(x, n) Округляет число x до n знаков после точки
+# floor(x) Округляет число x вниз («пол»)
+# ceil(x) Округляет число x вверх («потолок»)
+# abs(x) Модуль числа x (абсолютная величина)
+# sqrt(x) Квадратный корень числа x
+# pow(x, n) Возведение числа x в степень n
+# log(x) Натуральный логарифм числа x. Основание натурального логарифма равно числу e
+# log10(x) Десятичный логарифм числа x. Основание десятичного логарифма равно числу 10
+# log(x, b) Логарифм числа x по основанию b
+# factorial(n) Факториал натурального числа n
+# degrees(x) Преобразует угол x, заданный в радианах, в градусы
+# radians(x) Преобразует угол x, заданный в градусах, в радианы
+# cos(x) Косинус угла x, задаваемого в радианах
+# sin(x) Синус угла x, задаваемого в радианах
+# tan(x) Тангенс угла x, задаваемого в радианах
+# acos(x) Возвращает угол в радианах от 0 до π, cos которого равен x
+# asin(x) Возвращает угол в радианах
+# atan(x) Возвращает угол в радианах
+# atan2(y, x) Полярный угол (в радианах) точки с координатами (x, y)
+
+
+#from math import *
+#x1 = float(input())
+#y1 = float(input())
+#x2 = float(input())
+#y2 = float(input())
+#num1 = pow(x1-x2, 2)
+#num2 = pow(y1-y2, 2)
+#num3 = sqrt(num1 + num2)
+#print(num3)
+
+#from math import *
+#R = float(input())
+#S = pi*(R**2)
+#C = 2*pi*R
+#print(S)
+#print(C)
+
+#from math import *
+#a = float(input())
+#b = float(input())
+#mdl_arfm = (a+b)/2
+#mdl_gmtr = sqrt(a*b)
+#mdl_grmn = (2*a*b)/(a+b)
+#mdl_kvdr = sqrt((pow(a,2)+pow(b,2))/2)
+#print(mdl_arfm)
+#print(mdl_gmtr)
+#print(mdl_grmn)
+#print(mdl_kvdr)
+
+#from math import *
+#x = float(input())
+#r = (x*pi)/180
+#otvet = sin(r) + cos(r) + pow(tan(r),2)
+#print(otvet)
+
+#from math import *
+#num = float(input())
+#x1 = floor(num)
+#x2 = ceil(num)
+#summa = x1 + x2
+#print(summa)
+
+from math import *
+a = float(input())
+b = float(input())
+c = float(input())
+D = pow(b, 2) - a
