@@ -602,8 +602,69 @@
 #summa = x1 + x2
 #print(summa)
 
-from math import *
-a = float(input())
-b = float(input())
-c = float(input())
-D = pow(b, 2) - a
+#from math import sqrt
+#a = float(input())
+#b = float(input())
+#c = float(input())
+#D = (b**2) - (4*a*c)
+#if D > 0:
+#    x1 = (-b + sqrt(D)) / (2 * a)
+#    x2 = (-b - sqrt(D)) / (2 * a)
+#    x3 = min(x1, x2)
+#    x4 = max(x1, x2)
+#    print(x3)
+#    print(x4)
+#elif D == 0:
+#    x = -(b / (2*a))
+#    print(x)
+#else:
+#    print("Нет корней")
+
+#from math import *
+#n = float(input())
+#a = float(input())
+#S = (n * pow(a, 2) / (4*(tan(pi/n))))
+#print(S)
+
+#Циклы for и while
+# for название_переменной_цикла in range(количество_повторений):
+# блок кода
+
+#for text in range (10):
+ #   print("Python is awesome!")
+#for text_A in range (6):
+#    print("AAA")
+#for text_B in range (5):
+#    print("BBBB")
+#print("E")
+#for text_T in range (9):
+#    print("TTTTT")
+#print("G")
+
+#text = input()
+#n = int(input())
+#for replay in range (n):
+#    print(text)
+
+#n = int(input())
+#for case in range (n):
+#    print("*"*19)
+
+#text = input()
+#for i in range (10):
+#    print(i, text)
+
+#n = int(input())
+#for i in range (n+1):
+#    print("Квадрат числа", i, "равен", i*i)
+
+#n = int(input())
+#for i in range (n):
+#    print("*"*(n-i))
+
+m = int(input())
+p = int(input())
+n = int(input())
+for i in range(n):
+    C = m*(p/100+1)**i
+    print(i+1, C)
